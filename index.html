@@ -367,7 +367,7 @@
     <main>
       <section class="hero">
         <div class="eyebrow">Neo4j ecosystem</div>
-        <h1 id="top">Neo4j Partner</h1>
+        <h1 id="top">neo4j ecosystem</h1>
         <p class="subhead">
           Explore Neo4j integrations, deployment options, and cloud marketplace paths from Neo4j docs, Neo4j Labs, and the Neo4j partners ecosystem.
         </p>
@@ -386,6 +386,7 @@
         <nav class="category-nav" aria-label="Integration categories">
           <a class="chip" href="#deployment">Deployment</a>
           <a class="chip" href="#cloud-marketplace">Cloud marketplace</a>
+          <a class="chip" href="#integrations-overview">Integrations</a>
           <a class="chip" href="#data-ingestion--streaming">Data ingestion</a>
           <a class="chip" href="#data-integration--etl">Data integration</a>
           <a class="chip" href="#language-clients--drivers">Language clients</a>
@@ -393,9 +394,10 @@
           <a class="chip" href="#aiml--genai">AI/ML</a>
           <a class="chip" href="#data-visualization--bi">BI &amp; visualization</a>
           <a class="chip" href="#developer-frameworks">Developer frameworks</a>
-          <a class="chip" href="#cloud--data-platforms">Cloud</a>
-          <a class="chip" href="#isv--technology-partners">ISV</a>
-          <a class="chip" href="#integrations-overview">Integrations</a>
+          <a class="chip" href="#cloud--data-platforms">Data platforms</a>
+          <a class="chip" href="#si-partners">SI partners</a>
+          <a class="chip" href="#oem-partners">OEM partners</a>
+          <a class="chip" href="#isv--technology-partners">ISV &amp; technology</a>
         </nav>
       </div>
 
@@ -420,102 +422,78 @@
         </div>
       </section>
 
-      <section class="section" id="data-ingestion--streaming">
-        <div class="section-head">
-          <div>
-            <h2>Data ingestion &amp; streaming</h2>
-            <p>Real-time and batch ingestion options for moving event or tabular data into Neo4j.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-data-ingestion"></div>
-      </section>
-
-      <section class="section" id="data-integration--etl">
-        <div class="section-head">
-          <div>
-            <h2>Data integration &amp; ETL</h2>
-            <p>Connectors and toolkits for pipelines, warehouses, RDF data, and transformation-heavy data engineering flows.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-data-integration"></div>
-      </section>
-
-      <section class="section" id="language-clients--drivers">
-        <div class="section-head">
-          <div>
-            <h2>Language clients &amp; drivers</h2>
-            <p>Official Neo4j drivers and client interfaces for application development.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-language-clients"></div>
-      </section>
-
-      <section class="section" id="apis--protocols">
-        <div class="section-head">
-          <div>
-            <h2>APIs &amp; protocols</h2>
-            <p>Wire protocols and HTTP APIs for integrating Neo4j into service and platform architectures.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-apis"></div>
-      </section>
-
-      <section class="section" id="aiml--genai">
-        <div class="section-head">
-          <div>
-            <h2>AI/ML &amp; GenAI</h2>
-            <p>Neo4j-supported GenAI frameworks, GraphRAG tooling, vector search, and agent integrations from docs and Neo4j Labs.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-ai"></div>
-      </section>
-
-      <section class="section" id="data-visualization--bi">
-        <div class="section-head">
-          <div>
-            <h2>BI &amp; visualization</h2>
-            <p>Dashboarding, visual exploration, and BI connections including partner-supported Power BI and Tableau paths.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-bi"></div>
-      </section>
-
-      <section class="section" id="developer-frameworks">
-        <div class="section-head">
-          <div>
-            <h2>Developer frameworks</h2>
-            <p>Libraries, migration tools, and modeling utilities for building on top of Neo4j.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-frameworks"></div>
-      </section>
-
-      <section class="section" id="cloud--data-platforms">
-        <div class="section-head">
-          <div>
-            <h2>Cloud &amp; data platforms</h2>
-            <p>Cloud platform integrations and partner-led deployment surfaces sourced from Neo4j cloud and partner pages.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-cloud"></div>
-      </section>
-
-      <section class="section" id="isv--technology-partners">
-        <div class="section-head">
-          <div>
-            <h2>ISV &amp; technology partners</h2>
-            <p>Independent software vendors and technology partners from the Neo4j partner ecosystem.</p>
-          </div>
-        </div>
-        <div class="tile-grid" id="grid-isv"></div>
-      </section>
-
       <section class="section" id="integrations-overview">
         <div class="section-head">
           <div>
             <h2>Integrations</h2>
             <p>Browse integration options across ingestion, APIs, AI, BI, cloud platforms, and ecosystem partners.</p>
           </div>
+        </div>
+
+        <div class="deployment-subsection" id="data-ingestion--streaming">
+          <h3>Data ingestion &amp; streaming</h3>
+          <p>Real-time and batch ingestion options for moving event or tabular data into Neo4j.</p>
+          <div class="tile-grid" id="grid-data-ingestion"></div>
+        </div>
+
+        <div class="deployment-subsection" id="data-integration--etl">
+          <h3>Data integration &amp; ETL</h3>
+          <p>Connectors and toolkits for pipelines, warehouses, RDF data, and transformation-heavy data engineering flows.</p>
+          <div class="tile-grid" id="grid-data-integration"></div>
+        </div>
+
+        <div class="deployment-subsection" id="language-clients--drivers">
+          <h3>Language clients &amp; drivers</h3>
+          <p>Official Neo4j drivers and client interfaces for application development.</p>
+          <div class="tile-grid" id="grid-language-clients"></div>
+        </div>
+
+        <div class="deployment-subsection" id="apis--protocols">
+          <h3>APIs &amp; protocols</h3>
+          <p>Wire protocols and HTTP APIs for integrating Neo4j into service and platform architectures.</p>
+          <div class="tile-grid" id="grid-apis"></div>
+        </div>
+
+        <div class="deployment-subsection" id="aiml--genai">
+          <h3>AI/ML &amp; GenAI</h3>
+          <p>Neo4j-supported GenAI frameworks, GraphRAG tooling, vector search, and agent integrations from docs and Neo4j Labs.</p>
+          <div class="tile-grid" id="grid-ai"></div>
+        </div>
+
+        <div class="deployment-subsection" id="data-visualization--bi">
+          <h3>BI &amp; visualization</h3>
+          <p>Dashboarding, visual exploration, and BI connections including partner-supported Power BI and Tableau paths.</p>
+          <div class="tile-grid" id="grid-bi"></div>
+        </div>
+
+        <div class="deployment-subsection" id="developer-frameworks">
+          <h3>Developer frameworks</h3>
+          <p>Libraries, migration tools, and modeling utilities for building on top of Neo4j.</p>
+          <div class="tile-grid" id="grid-frameworks"></div>
+        </div>
+
+        <div class="deployment-subsection" id="cloud--data-platforms">
+          <h3>Data platforms</h3>
+          <p>Platform integrations used for analytics and lakehouse workflows.</p>
+          <div class="tile-grid" id="grid-cloud"></div>
+        </div>
+
+        <div class="deployment-subsection" id="si-partners">
+          <h3>SI partners</h3>
+          <p>System integrators and consulting partners from the Neo4j partner directory and solution partner ecosystem.</p>
+          <div class="tile-grid" id="grid-si"></div>
+        </div>
+
+        <div class="deployment-subsection" id="oem-partners">
+          <h3>OEM partners</h3>
+          <p>Partners embedding or packaging Neo4j graph technology into their own products and services.</p>
+          <div class="tile-grid" id="grid-oem"></div>
+        </div>
+
+        <div class="deployment-subsection" id="isv--technology-partners">
+          <h3>ISV &amp; technology partners</h3>
+          <p>Consolidated ISV and technology partner category from the Neo4j partner ecosystem.</p>
+          <div class="tile-grid" id="grid-isv"></div>
         </div>
       </section>
 
@@ -680,22 +658,44 @@
           { name: "Keymaker", url: "https://neo4j.com/labs/keymaker/", description: "Build analytical pipelines in Cypher and expose them via GraphQL.", logo: "https://neo4j.com/docs/_images/icon-developer.svg", mark: "Keymaker", tag: "labs" }
         ],
         "grid-cloud": [
-          { name: "Neo4j Aura", url: "https://neo4j.com/docs/aura/", description: "Managed Neo4j cloud platform spanning database, analytics, console, and operations.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "Aura", tag: "official" },
-          { name: "AuraDB", url: "https://neo4j.com/product/auradb/", description: "Fully managed graph database service with marketplace integrations.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "AuraDB", tag: "official" },
-          { name: "Aura Graph Analytics", url: "https://neo4j.com/product/aura-graph-analytics/", description: "Managed graph analytics and algorithm execution in Neo4j cloud workflows.", logo: "https://cdn.simpleicons.org/neo4j/008CC1", mark: "Analytics", tag: "official" },
-          { name: "AWS", url: "https://neo4j.com/cloud/aura-aws/", description: "Neo4j on AWS with AuraDB marketplace support and integrations for Bedrock, EMR, Redshift, and Kinesis.", logo: "https://dist.neo4j.com/wp-content/uploads/20180813155701/aws-cloud-neo4j.png", tag: "partner" },
-          { name: "Microsoft Azure", url: "https://neo4j.com/partners/microsoft/", description: "Neo4j partner page covering AuraDB on Azure, Fabric integration, and Azure AI workflows.", logo: "https://dist.neo4j.com/wp-content/uploads/20180821105618/Microsoft_Azure_Logo.png", tag: "partner" },
-          { name: "Google Cloud", url: "https://neo4j.com/partners/google/", description: "Neo4j partner page for Google Cloud, including BigQuery, Dataflow, Vertex AI, and marketplace deployment.", logo: "https://dist.neo4j.com/wp-content/uploads/20190408145728/google-cloud.jpg", tag: "partner" },
-          { name: "Microsoft Fabric", url: "https://neo4j.com/neo4j-graph-intelligence-microsoft-fabric/", description: "Neo4j Graph Intelligence for Microsoft Fabric with integrated graph analytics and knowledge graph workflows.", logo: "https://cdn.simpleicons.org/microsoft/5E5E5E", mark: "Fabric", tag: "partner" },
           { name: "Snowflake", url: "https://neo4j.com/neo4j-graph-analytics-snowflake/", description: "Graph analytics offering for Snowflake and related AI/data cloud workflows.", logo: "https://cdn.simpleicons.org/snowflake/29B5E8", mark: "Snowflake", tag: "partner" },
-          { name: "Databricks", url: "https://neo4j.com/docs/spark/current/databricks/", description: "Databricks integration path via the Neo4j Spark connector and partner ecosystem content.", logo: "https://cdn.simpleicons.org/databricks/FF3621", mark: "Databricks", tag: "partner" },
-          { name: "Confluent Cloud", url: "https://neo4j.com/users/confluent/", description: "Technology partner integration for real-time graph eventing with Confluent Cloud and Platform.", logo: "https://cdn.simpleicons.org/confluent/FA4C00", mark: "Confluent", tag: "partner" }
+          { name: "Microsoft Fabric", url: "https://neo4j.com/neo4j-graph-intelligence-microsoft-fabric/", description: "Neo4j Graph Intelligence for Microsoft Fabric with integrated graph analytics and knowledge graph workflows.", logo: "https://cdn.simpleicons.org/microsoft/5E5E5E", mark: "Fabric", tag: "partner" },
+          { name: "Databricks", url: "https://neo4j.com/docs/spark/current/databricks/", description: "Databricks integration path via the Neo4j Spark connector and partner ecosystem content.", logo: "https://cdn.simpleicons.org/databricks/FF3621", mark: "Databricks", tag: "partner" }
         ],
         "grid-isv": [
           { name: "Esri", url: "https://neo4j.com/users/esri/", description: "Technology partner pairing graph intelligence with geospatial analysis and ArcGIS Knowledge.", logo: "https://cdn.simpleicons.org/esri/2C7AC3", mark: "Esri", tag: "partner" },
           { name: "Informatica", url: "https://neo4j.com/users/informatica/", description: "Enterprise data management platform partner for connected, governed data flows.", logo: "https://cdn.simpleicons.org/informatica/FF4D00", mark: "Informatica", tag: "partner" },
           { name: "StreamSets", url: "https://www.ibm.com/products/streamsets", description: "Data ingestion and pipeline platform used in broader data ecosystem workflows around Neo4j.", logo: "https://cdn.simpleicons.org/ibm/052FAD", mark: "StreamSets", tag: "ecosystem" },
           { name: "Hackolade", url: "https://neo4j.com/users/hackolade/", description: "Technology partner for visual data modeling, reverse engineering, and schema documentation for Neo4j.", logo: "https://dist.neo4j.com/wp-content/uploads/20200415145903/Hackolade-01-cropped.png", tag: "partner" }
+        ],
+        "grid-si": [
+          { name: "Deloitte", url: "https://neo4j.com/users/deloitte/", description: "Global consulting and systems integration partner in the Neo4j directory.", logo: "https://cdn.simpleicons.org/deloitte/86BC25", mark: "Deloitte", tag: "solution" },
+          { name: "Cognizant", url: "https://neo4j.com/users/cognizant/", description: "Enterprise consulting and transformation partner listed in the Neo4j directory.", logo: "https://cdn.simpleicons.org/cognizant/1A4CA1", mark: "Cognizant", tag: "solution" },
+          { name: "Capgemini", url: "https://neo4j.com/users/capgemini-2/", description: "System integrator in the Neo4j partner directory for graph and data initiatives.", logo: "https://cdn.simpleicons.org/capgemini/0070AD", mark: "Capgemini", tag: "solution" },
+          { name: "Infosys", url: "https://neo4j.com/users/infosys/", description: "Consulting and delivery partner with Neo4j offerings in the directory.", logo: "https://cdn.simpleicons.org/infosys/007CC3", mark: "Infosys", tag: "solution" },
+          { name: "Tata Consultancy Services (TCS)", url: "https://neo4j.com/users/tata-consultancy-services-tcs/", description: "Global SI partner listed in the Neo4j partner directory.", logo: "https://cdn.simpleicons.org/tata/486AAE", mark: "TCS", tag: "solution" },
+          { name: "NTT DATA", url: "https://neo4j.com/users/nttdata/", description: "IT services and systems integration partner in the Neo4j directory.", mark: "NTT DATA", tag: "solution" },
+          { name: "Genpact", url: "https://neo4j.com/users/genpact/", description: "Advisory and services partner listed in the Neo4j partner directory.", mark: "Genpact", tag: "solution" },
+          { name: "Prodapt", url: "https://neo4j.com/users/prodapt/", description: "Telecom-focused systems integration and consulting partner listed in the directory.", mark: "Prodapt", tag: "solution" },
+          { name: "Enterprise Knowledge", url: "https://neo4j.com/users/enterprise-knowledge/", description: "Knowledge engineering and consulting partner in the Neo4j solution ecosystem.", mark: "Enterprise Knowledge", tag: "solution" },
+          { name: "AgileLab", url: "https://neo4j.com/users/agilelab/", description: "Data engineering and analytics consulting partner listed in the directory.", mark: "AgileLab", tag: "solution" },
+          { name: "Acuative", url: "https://neo4j.com/users/acuative/", description: "Services partner focused on digital and graph-enabled solutions.", mark: "Acuative", tag: "solution" },
+          { name: "Agilisys", url: "https://neo4j.com/users/agilisys/", description: "Public-sector and digital transformation SI partner listed in Neo4j directory.", mark: "Agilisys", tag: "solution" },
+          { name: "Semantix", url: "https://neo4j.com/users/semantix/", description: "Data and AI consulting partner with Neo4j partner profile.", mark: "Semantix", tag: "solution" },
+          { name: "Datarain", url: "https://neo4j.com/users/datarain/", description: "Cloud and data engineering partner listed in the Neo4j directory.", mark: "Datarain", tag: "solution" },
+          { name: "Eraneos", url: "https://neo4j.com/users/eraneos/", description: "Advisory and delivery SI partner in Neo4j’s partner ecosystem.", mark: "Eraneos", tag: "solution" },
+          { name: "Neoris", url: "https://neo4j.com/users/neoris/", description: "Digital consulting and delivery partner listed in the Neo4j directory.", mark: "Neoris", tag: "solution" },
+          { name: "Prodyna", url: "https://neo4j.com/users/prodyna/", description: "Engineering and consulting partner from the Neo4j partner directory.", mark: "Prodyna", tag: "solution" },
+          { name: "GraphAware", url: "https://neo4j.com/users/graphaware/", description: "Graph-specialist consulting and engineering partner in the Neo4j ecosystem.", mark: "GraphAware", tag: "solution" },
+          { name: "Reply", url: "https://neo4j.com/users/reply/", description: "Systems integration and digital consulting partner listed in the Neo4j directory.", mark: "Reply", tag: "solution" }
+        ],
+        "grid-oem": [
+          { name: "Swimlane", url: "https://neo4j.com/users/swimlane/", description: "OEM partner embedding graph capabilities into security automation solutions.", mark: "Swimlane", tag: "oem" },
+          { name: "Digitate", url: "https://neo4j.com/users/digitate/", description: "OEM partner integrating Neo4j into AI operations and enterprise automation offerings.", mark: "Digitate", tag: "oem" },
+          { name: "HP", url: "https://neo4j.com/users/hp/", description: "OEM ecosystem participant highlighted in Neo4j partner content.", mark: "HP", tag: "oem" },
+          { name: "intelligentTag", url: "https://neo4j.com/users/intelligenttag/", description: "OEM partner profile in the Neo4j directory.", mark: "intelligentTag", tag: "oem" },
+          { name: "Cisco", url: "https://neo4j.com/partners/oem-partners/", description: "Featured on Neo4j OEM partner page as an embedded graph solution provider.", mark: "Cisco", tag: "oem" },
+          { name: "Precisely", url: "https://neo4j.com/partners/oem-partners/", description: "Featured on Neo4j OEM partner page for embedded graph-powered offerings.", mark: "Precisely", tag: "oem" }
         ],
         "grid-deployment": [
           {

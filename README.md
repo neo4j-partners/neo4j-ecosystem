@@ -1,3 +1,3 @@
-# neo4j-partners
+# neo4j-ecosystem
 
-Learn about Neo4j partners at https://neo4j-partners.github.io/neo4j-partners/
+Learn about the Neo4j ecosystem at https://neo4j-partners.github.io/neo4j-ecosystem/
