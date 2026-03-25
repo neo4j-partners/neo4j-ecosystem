@@ -387,6 +387,7 @@
           <a class="chip" href="#deployment">Deployment</a>
           <a class="chip" href="#cloud-marketplace">Cloud marketplace</a>
           <a class="chip" href="#integrations-overview">Integrations</a>
+          <a class="chip" href="#si-oem-overview">SI/OEM</a>
           <a class="chip" href="#data-ingestion--streaming">Data ingestion</a>
           <a class="chip" href="#data-integration--etl">Data integration</a>
           <a class="chip" href="#language-clients--drivers">Language clients</a>
@@ -425,7 +426,7 @@
       <section class="section" id="integrations-overview">
         <div class="section-head">
           <div>
-            <h2>Integrations</h2>
+            <h2 class="deployment-title">Integrations</h2>
             <p>Browse integration options across ingestion, APIs, AI, BI, cloud platforms, and ecosystem partners.</p>
           </div>
         </div>
@@ -478,6 +479,21 @@
           <div class="tile-grid" id="grid-cloud"></div>
         </div>
 
+        <div class="deployment-subsection" id="isv--technology-partners">
+          <h3>ISV &amp; technology partners</h3>
+          <p>Consolidated ISV and technology partner category from the Neo4j partner ecosystem.</p>
+          <div class="tile-grid" id="grid-isv"></div>
+        </div>
+      </section>
+
+      <section class="section" id="si-oem-overview">
+        <div class="section-head">
+          <div>
+            <h2 class="deployment-title">SI/OEM</h2>
+            <p>Partner services and embedded-solution categories from Neo4j solution and OEM partner programs.</p>
+          </div>
+        </div>
+
         <div class="deployment-subsection" id="si-partners">
           <h3>SI partners</h3>
           <p>System integrators and consulting partners from the Neo4j partner directory and solution partner ecosystem.</p>
@@ -488,12 +504,6 @@
           <h3>OEM partners</h3>
           <p>Partners embedding or packaging Neo4j graph technology into their own products and services.</p>
           <div class="tile-grid" id="grid-oem"></div>
-        </div>
-
-        <div class="deployment-subsection" id="isv--technology-partners">
-          <h3>ISV &amp; technology partners</h3>
-          <p>Consolidated ISV and technology partner category from the Neo4j partner ecosystem.</p>
-          <div class="tile-grid" id="grid-isv"></div>
         </div>
       </section>
 
@@ -536,6 +546,14 @@
             logo: "https://neo4j.com/docs/_images/icon-import.svg",
             mark: "Importer",
             tag: "official"
+          },
+          {
+            name: "Neo4j Knowledge Graph Builder",
+            url: "https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/",
+            description: "Build knowledge graphs from unstructured content for ingestion into Neo4j graph workflows.",
+            logo: "https://cdn.simpleicons.org/neo4j/008CC1",
+            mark: "KG Builder",
+            tag: "labs"
           }
         ],
         "grid-data-integration": [
@@ -666,7 +684,17 @@
           { name: "Esri", url: "https://neo4j.com/users/esri/", description: "Technology partner pairing graph intelligence with geospatial analysis and ArcGIS Knowledge.", logo: "https://cdn.simpleicons.org/esri/2C7AC3", mark: "Esri", tag: "partner" },
           { name: "Informatica", url: "https://neo4j.com/users/informatica/", description: "Enterprise data management platform partner for connected, governed data flows.", logo: "https://cdn.simpleicons.org/informatica/FF4D00", mark: "Informatica", tag: "partner" },
           { name: "StreamSets", url: "https://www.ibm.com/products/streamsets", description: "Data ingestion and pipeline platform used in broader data ecosystem workflows around Neo4j.", logo: "https://cdn.simpleicons.org/ibm/052FAD", mark: "StreamSets", tag: "ecosystem" },
-          { name: "Hackolade", url: "https://neo4j.com/users/hackolade/", description: "Technology partner for visual data modeling, reverse engineering, and schema documentation for Neo4j.", logo: "https://dist.neo4j.com/wp-content/uploads/20200415145903/Hackolade-01-cropped.png", tag: "partner" }
+          { name: "Hackolade", url: "https://neo4j.com/users/hackolade/", description: "Technology partner for visual data modeling, reverse engineering, and schema documentation for Neo4j.", logo: "https://dist.neo4j.com/wp-content/uploads/20200415145903/Hackolade-01-cropped.png", tag: "partner" },
+          { name: "CluedIn", url: "https://neo4j.com/users/cluedin/", description: "Master data and knowledge graph platform listed in the Neo4j partner directory.", mark: "CluedIn", tag: "partner" },
+          { name: "Linkurious", url: "https://neo4j.com/users/linkurious/", description: "Graph analytics and investigation interface partner in the Neo4j ecosystem.", mark: "Linkurious", tag: "partner" },
+          { name: "Graphistry", url: "https://neo4j.com/users/graphistry-inc/", description: "Visual graph analytics technology partner with a Neo4j directory profile.", mark: "Graphistry", tag: "partner" },
+          { name: "Sisense", url: "https://neo4j.com/users/sisense/", description: "Analytics and BI technology partner listed in the Neo4j partner directory.", logo: "https://cdn.simpleicons.org/sisense/1A4B8C", mark: "Sisense", tag: "partner" },
+          { name: "Lucinity", url: "https://neo4j.com/users/lucinity/", description: "Financial crime and investigation technology partner in the Neo4j directory.", mark: "Lucinity", tag: "partner" },
+          { name: "Manta", url: "https://neo4j.com/users/manta/", description: "Data lineage and metadata intelligence partner with Neo4j profile listing.", mark: "Manta", tag: "partner" },
+          { name: "Kineviz", url: "https://neo4j.com/users/kineviz/", description: "Graph visualization and analysis partner listed in the Neo4j directory.", mark: "Kineviz", tag: "partner" },
+          { name: "YWorks", url: "https://neo4j.com/users/yworks/", description: "Diagramming and graph visualization technology partner in the Neo4j ecosystem.", mark: "yWorks", tag: "partner" },
+          { name: "FactGem", url: "https://neo4j.com/users/factgem/", description: "Knowledge graph integration platform with Neo4j directory profile.", mark: "FactGem", tag: "partner" },
+          { name: "QIAGEN", url: "https://neo4j.com/users/qiagen/", description: "Life sciences technology partner listed in the Neo4j partner directory.", mark: "QIAGEN", tag: "partner" }
         ],
         "grid-si": [
           { name: "Deloitte", url: "https://neo4j.com/users/deloitte/", description: "Global consulting and systems integration partner in the Neo4j directory.", logo: "https://cdn.simpleicons.org/deloitte/86BC25", mark: "Deloitte", tag: "solution" },
